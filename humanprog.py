@@ -3,7 +3,7 @@
 import os
 while True:
     p=input("Chat with me with your requirements : ")
-    # browsers
+    # BROWSERS
 
     if (("open" in p) or ("run" in p) or ("start" in p) or ("execute" in p)) and (("chrome" in p) or "chrome browser" in p):
         os.system("chrome")
